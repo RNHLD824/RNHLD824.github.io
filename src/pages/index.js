@@ -28,7 +28,4 @@ export default function IndexPage() {
   )
 }
 
-<MessengerCustomerChat
-    pageId="110297213815179"
-    appId="1044670522922699"
-  />
+<MessengerCustomerChat pageId="110297213815179" appId="1044670522922699"/>
