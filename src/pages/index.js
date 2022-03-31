@@ -27,5 +27,4 @@ export default function IndexPage() {
     </ThemeProvider>
   )
 }
-
-<MessengerCustomerChat pageId="110297213815179" appId="1044670522922699"/>
+<MessengerCustomerChat pageId="107927384673888" appId="1044670522922699"/>
