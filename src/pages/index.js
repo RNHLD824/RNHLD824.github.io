@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { MessengerChat } from 'react-messenger-chat-plugin';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
 import SEO from 'components/seo';
@@ -24,13 +23,9 @@ export default function IndexPage() {
         <Partners />
         <Faq />
         <Blog />
+        <MessengerChat pageId='110297213815179' appId="1044670522922699"/>
       </Layout>
     </ThemeProvider>
+    
   )
 }
-ReactDOM.render(
-  <MessengerChat
-    pageId='110297213815179'
-    appId="1044670522922699"
-    />);
-  document.getElementById('fb-customer-chat')
