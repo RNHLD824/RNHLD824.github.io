@@ -26,6 +26,5 @@ export default function IndexPage() {
         <MessengerCustomerChat pageId={`${process.env.NEXT_PUBLIC_MESSENGER_PAGEID}`} appId={`${process.env.NEXT_PUBLIC_MESSENGER_APPID}`}/>
       </Layout>
     </ThemeProvider>
-    
   )
 }
