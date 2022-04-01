@@ -27,6 +27,4 @@ export default function IndexPage() {
     </ThemeProvider>
   )
 }
-ReactDOM.render(
 <MessengerCustomerChat pageId="110297213815179" appId="1044670522922699"/>
-);
