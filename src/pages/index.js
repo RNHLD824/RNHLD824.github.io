@@ -23,9 +23,8 @@ export default function IndexPage() {
         <Partners />
         <Faq />
         <Blog />
-        <MessengerCustomerChat pageId='110297213815179' appId="1044670522922699"/>
+        <MessengerCustomerChat pageId={`${process.env.NEXT_PUBLIC_MESSENGER_PAGEID}`} appId={`${process.env.NEXT_PUBLIC_MESSENGER_APPID}`}/>
       </Layout>
     </ThemeProvider>
-    
   )
 }
