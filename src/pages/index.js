@@ -23,7 +23,7 @@ export default function IndexPage() {
         <Partners />
         <Faq />
         <Blog />
-        <MessengerChat pageId='110297213815179' appId="1044670522922699"/>
+        <MessengerCustomerChat pageId='110297213815179' appId="1044670522922699"/>
       </Layout>
     </ThemeProvider>
     
